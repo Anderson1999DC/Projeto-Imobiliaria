@@ -72,10 +72,14 @@ Esta base contém informações sobre imóveis para aluguel e foi usada exclusiv
 
 🛠️ Tecnologias Utilizadas
 Python
+
 Pandas
+
 Google Colab
 
 🧑‍💼 Autor
 Anderson Junior
+
 Cientista de Dados 
+
 LinkedIn (https://www.linkedin.com/in/anderson-coelho-42671634a/)
