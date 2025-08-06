@@ -61,13 +61,13 @@ Base estruturada para futuros modelos de regressão ou classificação (ex: prev
 
 📁 Estrutura do Projeto
 
-bash
-Copiar
-Editar
 ├── Projeto_imobiliaria.ipynb       # Notebook com todo o processo de análise e tratamento
+
 ├── Os dados utilizados neste projeto foram obtidos a partir da seguinte fonte pública:
 🔗 aluguel.csv – Repositório da Alura no GitHub
+
 Esta base contém informações sobre imóveis para aluguel e foi usada exclusivamente para fins educacionais neste projeto fictício.
+
 ├── README.md                       # Descrição do projeto (este arquivo)
 
 🛠️ Tecnologias Utilizadas
