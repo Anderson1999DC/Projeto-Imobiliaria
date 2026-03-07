@@ -1,10 +1,10 @@
-Contexto
+# Contexto
 
 Este é um projeto fictício, desenvolvido com o objetivo de aplicar conhecimentos de Ciência de Dados em um cenário realista: uma imobiliária que deseja aprimorar sua plataforma online com a ajuda de Machine Learning.
 
 Fui contratado como Cientista de Dados para atender às demandas do time de desenvolvedores e do time de Machine Learning, contribuindo com análises, tratamento e preparação dos dados, além da geração de insights para a tomada de decisão.
 
-Objetivos do Projeto
+# Objetivos do Projeto
 
 Compreender e tratar os dados de imóveis disponíveis para aluguel ou venda.
 
@@ -14,7 +14,7 @@ Fornecer um conjunto de dados limpo, padronizado e pronto para ser utilizado por
 
 Propor melhorias no entendimento das variáveis que impactam o valor dos imóveis.
 
-Etapas do Projeto
+# Etapas do Projeto
 
 Importação e compreensão dos dados
 
@@ -24,7 +24,7 @@ Análise das variáveis disponíveis (quantitativas e qualitativas).
 
 Verificação de valores ausentes e tipos de dados.
 
-Limpeza e tratamento
+# Limpeza e tratamento
 
 Remoção de colunas irrelevantes ou com muitos dados faltantes.
 
@@ -52,14 +52,14 @@ Exportação de um dataset final, padronizado e limpo.
 
 Documentação clara para facilitar o uso pelos outros times (ML e Devs).
 
- Resultados
+# Resultados
 Um dataset final otimizado com variáveis relevantes para precificação de imóveis.
 
 Análises visuais que facilitam a tomada de decisões estratégicas.
 
 Base estruturada para futuros modelos de regressão ou classificação (ex: prever preço de aluguel, classificar imóveis de alto padrão, etc).
 
- Estrutura do Projeto
+# Estrutura do Projeto
 
 ├── Projeto_imobiliaria.ipynb       # Notebook com todo o processo de análise e tratamento
 
@@ -70,7 +70,7 @@ Esta base contém informações sobre imóveis para aluguel e foi usada exclusiv
 
 ├── README.md                       # Descrição do projeto (este arquivo)
 
-Tecnologias Utilizadas
+# Tecnologias Utilizadas
 Python
 
 Pandas
