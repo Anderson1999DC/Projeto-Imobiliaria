@@ -19,7 +19,7 @@
 
 ---
 
-## 📋 Índice
+##  Índice
 
 - [Contexto](#-contexto)
 - [Objetivos](#-objetivos)
@@ -34,7 +34,7 @@
 
 ---
 
-## 🏢 Contexto
+##  Contexto
 
 Este é um projeto educacional desenvolvido para simular um cenário real de mercado: uma **imobiliária fictícia** que deseja aprimorar sua plataforma digital com o apoio de **Machine Learning**.
 
@@ -57,7 +57,7 @@ Atuei na limpeza, preparo e EDA sendo responsável por atender às demandas de d
 
 ---
 
-## 🔄 Pipeline do Projeto
+##  Pipeline do Projeto
 
 ```mermaid
 flowchart TD
