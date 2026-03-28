@@ -215,13 +215,16 @@ flowchart TD
 
 ---
 
-###  Datasets Exportados
+##  Datasets Exportados
 
-| Arquivo | Registros | Critério de Filtro |
-|---|---|---|
-| `dados_apartamentos.csv` | ~18.778 | Todos os apartamentos limpos |
-| `filtro_1.csv` | 495 | 1 quarto + aluguel < R$ 1.200 |
-| `filtro_2.csv` | 4.456 | ≥ 2 quartos + aluguel < R$ 3.000 + área > 70m² |
+> Os arquivos abaixo simulam entregas reais para o **time de desenvolvimento** da imobiliária,
+> replicando filtros de busca que seriam usados no site para diferentes perfis de inquilinos.
+
+| Arquivo | Registros | Perfil Atendido | Critério |
+|---|---|---|---|
+| `dados_apartamentos.csv` | ~18.778 | Base completa para o time de ML | Todos os apartamentos após limpeza |
+| `filtro_1.csv` | 495 |  Solteiros / quem mora sozinho | 1 quarto + aluguel < R$ 1.200 |
+| `filtro_2.csv` | 4.456 |  Famílias com bom custo-benefício | ≥ 2 quartos + aluguel < R$ 3.000 + área > 70m² |
 
 ###  Próximos Passos Sugeridos
 
