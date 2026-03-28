@@ -62,15 +62,15 @@ Atuei na limpeza, preparo e EDA sendo responsável por atender às demandas de d
 ```mermaid
 flowchart TD
     A([ Dados Brutos\naluguel.csv\n32.960 registros]) --> B[ Compreensão\ndos Dados]
-    B --> C[ Limpeza &\nTratamento]
-    C --> D[ Análise Exploratória\nEDA]
-    D --> E[ Engenharia de\nAtributos]
+    B --> C[ Limpeza e Tratamento]
+    C --> D[ Análise Exploratória]
+    D --> E[ Engenharia de Atributos]
     E --> F([ Dataset Final\n~18.778 apartamentos])
 
-    B --> B1[/"9 colunas · 22 tipos de imóvel\n149 bairros"/]
-    C --> C1[/"752 registros removidos\nNulos tratados com fillna"/]
-    D --> D1[/"Distribuições · Correlações\nRanking de bairros"/]
-    E --> E1[/"4 novas features\n3 CSVs exportados"/]
+    B --> B1[/"9 colunas · 22 tipos de imóveis\n149 bairros"/]
+    C --> C1[/"752 registros removidos\Nulos tratados com fillna"/]
+    D --> D1[/"Distribuições · Correlações\Ranking de bairros"/]
+    E --> E1[/"4 novas features\3 CSVs exportados"/]
 
     style A fill:#4A90D9,color:#fff,stroke:none
     style F fill:#28a745,color:#fff,stroke:none
