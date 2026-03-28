@@ -257,7 +257,7 @@ Projeto-Imobiliaria/
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 <div align="center">
 
