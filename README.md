@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏠 Análise de Dados Imobiliários
+# Análise de Dados Imobiliários
 ### EDA · Limpeza · Engenharia de Atributos · Preparação para ML
 
 <br>
@@ -8,13 +8,11 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 [![Status](https://img.shields.io/badge/Status-Concluído-28a745?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/Licença-MIT-blue?style=for-the-badge)](LICENSE)
 
 <br>
 
-> Projeto de Ciência de Dados focado na análise, limpeza e preparação de dados de imóveis para aluguel,
+> Projeto focado na análise, limpeza e preparação de dados de imóveis para aluguel,
 > gerando insights estratégicos e um dataset pronto para modelos de Machine Learning.
 
 </div>
@@ -40,22 +38,22 @@
 
 Este é um projeto educacional desenvolvido para simular um cenário real de mercado: uma **imobiliária fictícia** que deseja aprimorar sua plataforma digital com o apoio de **Machine Learning**.
 
-Atuei como **Cientista de Dados** responsável por atender às demandas de dois times:
+Atuei na limpeza, preparo e EDA sendo responsável por atender às demandas de dois times:
 
 | Time | Demanda |
 |------|---------|
-| 🛠️ **Devs** | Dataset limpo e padronizado para integração no site |
-| 🤖 **ML** | Variáveis relevantes e bem tratadas para modelagem preditiva |
+|  **Devs** | Dataset limpo e padronizado para integração no site |
+|  **ML** | Variáveis relevantes e bem tratadas para modelagem preditiva |
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
-- 🔍 Compreender e explorar os dados brutos de imóveis para aluguel
-- 🧹 Tratar inconsistências, valores ausentes e outliers
-- ⚙️ Criar variáveis derivadas úteis para modelos preditivos
-- 📦 Exportar um dataset final limpo e documentado
-- 💡 Gerar insights sobre os fatores que impactam o preço dos imóveis
+-  Compreender e explorar os dados brutos de imóveis para aluguel
+-  Tratar inconsistências, valores ausentes e outliers
+-  Criar variáveis derivadas úteis para modelos preditivos
+-  Exportar um dataset final limpo e documentado
+-  Gerar insights sobre os fatores que impactam o preço dos imóveis
 
 ---
 
@@ -63,11 +61,11 @@ Atuei como **Cientista de Dados** responsável por atender às demandas de dois 
 
 ```mermaid
 flowchart TD
-    A([📥 Dados Brutos\naluguel.csv\n32.960 registros]) --> B[🔎 Compreensão\ndos Dados]
-    B --> C[🧹 Limpeza &\nTratamento]
-    C --> D[📊 Análise Exploratória\nEDA]
-    D --> E[⚙️ Engenharia de\nAtributos]
-    E --> F([📦 Dataset Final\n~18.778 apartamentos])
+    A([ Dados Brutos\naluguel.csv\n32.960 registros]) --> B[ Compreensão\ndos Dados]
+    B --> C[ Limpeza &\nTratamento]
+    C --> D[ Análise Exploratória\nEDA]
+    D --> E[ Engenharia de\nAtributos]
+    E --> F([ Dataset Final\n~18.778 apartamentos])
 
     B --> B1[/"9 colunas · 22 tipos de imóvel\n149 bairros"/]
     C --> C1[/"752 registros removidos\nNulos tratados com fillna"/]
@@ -84,7 +82,7 @@ flowchart TD
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 <div align="center">
 
@@ -94,31 +92,30 @@ flowchart TD
 | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | Manipulação e análise dos dados |
 | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) | Operações numéricas |
 | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white) | Visualizações e gráficos |
-| ![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white) | Ambiente de desenvolvimento |
 
 </div>
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 **Fonte:** `aluguel.csv` — repositório público da [Alura](https://github.com/alura-cursos/pandas-conhecendo-a-biblioteca)
 **Uso:** Exclusivamente educacional
 
 | Característica | Detalhe |
 |---|---|
-| 📋 Tipo | Dados de imóveis para aluguel |
-| 📏 Volume bruto | 32.960 linhas · 9 colunas |
-| 🏷️ Variáveis | Tipo, Bairro, Quartos, Vagas, Suítes, Área, Valor, Condomínio, IPTU |
-| 🗺️ Cobertura geográfica | 149 bairros |
-| 🏘️ Tipos de imóvel | 22 categorias |
+|  Tipo | Dados de imóveis para aluguel |
+|  Volume bruto | 32.960 linhas · 9 colunas |
+|  Variáveis | Tipo, Bairro, Quartos, Vagas, Suítes, Área, Valor, Condomínio, IPTU |
+|  Cobertura geográfica | 149 bairros |
+|  Tipos de imóvel | 22 categorias |
 
 ---
 
-## 📝 Etapas Detalhadas
+##  Etapas Detalhadas
 
 <details>
-<summary><b>1️⃣ Importação e Compreensão dos Dados</b></summary>
+<summary><b> Importação e Compreensão dos Dados</b></summary>
 
 - Leitura do dataset com `pandas.read_csv()` via URL pública
 - Análise do shape, tipos de dados e estatísticas descritivas
@@ -134,7 +131,7 @@ flowchart TD
 </details>
 
 <details>
-<summary><b>2️⃣ Limpeza e Tratamento</b></summary>
+<summary><b> Limpeza e Tratamento</b></summary>
 
 - Remoção de **14 categorias comerciais** (Conjunto Comercial, Prédio Inteiro, Loja/Salão, etc.)
 - Filtragem para foco em **apartamentos residenciais**
@@ -145,7 +142,7 @@ flowchart TD
 </details>
 
 <details>
-<summary><b>3️⃣ Análise Exploratória de Dados (EDA)</b></summary>
+<summary><b> Análise Exploratória de Dados (EDA)</b></summary>
 
 - Distribuição dos imóveis por tipo e percentual na base
 - Ranking de bairros por valor médio de aluguel
@@ -155,7 +152,7 @@ flowchart TD
 </details>
 
 <details>
-<summary><b>4️⃣ Engenharia de Atributos</b></summary>
+<summary><b> Engenharia de Atributos</b></summary>
 
 | Feature criada | Lógica |
 |---|---|
@@ -168,7 +165,7 @@ flowchart TD
 
 ---
 
-## 📊 Principais Resultados
+##  Principais Resultados
 
 ### Distribuição dos Tipos de Imóvel
 
@@ -202,7 +199,7 @@ flowchart TD
 
 ---
 
-### 🏆 Top 5 Bairros — Maior Valor Médio (Apartamentos)
+###  Top 5 Bairros — Maior Valor Médio (Apartamentos)
 
 ![Top 5 Bairros com Maior Valor Médio Apartamentos](assets/Top%205%20Bairros%20com%20Maior%20Valor%20M%C3%A9dio%20Apartamentos.png)
 
@@ -218,7 +215,7 @@ flowchart TD
 
 ---
 
-### 📦 Datasets Exportados
+###  Datasets Exportados
 
 | Arquivo | Registros | Critério de Filtro |
 |---|---|---|
@@ -226,7 +223,7 @@ flowchart TD
 | `filtro_1.csv` | 495 | 1 quarto + aluguel < R$ 1.200 |
 | `filtro_2.csv` | 4.456 | ≥ 2 quartos + aluguel < R$ 3.000 + área > 70m² |
 
-### 🚀 Próximos Passos Sugeridos
+###  Próximos Passos Sugeridos
 
 - [ ] Modelo de **regressão** para prever preço de aluguel
 - [ ] Classificador de imóveis de **alto padrão** (acima do percentil 75)
@@ -235,7 +232,7 @@ flowchart TD
 
 ---
 
-## 📁 Estrutura do Repositório
+##  Estrutura do Repositório
 
 ```
 Projeto-Imobiliaria/
@@ -257,41 +254,13 @@ Projeto-Imobiliaria/
 
 ---
 
-## ▶️ Como Executar
-
-### Opção 1 — Google Colab (Recomendado) ☁️
-
-1. Clique no badge abaixo para abrir direto no Colab:
-
-   [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anderson1999DC/Projeto-Imobiliaria/blob/main/Projeto_imobiliaria/Projeto__imobiliaria.ipynb)
-
-2. Execute todas as células (`Ctrl + F9`) — o dataset é carregado automaticamente via URL pública
-
-### Opção 2 — Local 🖥️
-
-**Pré-requisitos:** Python 3.10+ e pip
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/Anderson1999DC/Projeto-Imobiliaria.git
-cd Projeto-Imobiliaria
-
-# 2. Instale as dependências
-pip install pandas numpy matplotlib seaborn jupyter
-
-# 3. Inicie o Jupyter Notebook
-jupyter notebook Projeto_imobiliaria/Projeto__imobiliaria.ipynb
-```
-
----
-
 ## 👨‍💻 Autor
 
 <div align="center">
 
 <img src="https://github.com/Anderson1999DC.png" width="100px" style="border-radius:50%"/>
 
-**Anderson Junior**
+**Anderson Coelho**
 *Cientista de Dados*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-coelho-42671634a/)
@@ -303,6 +272,5 @@ jupyter notebook Projeto_imobiliaria/Projeto__imobiliaria.ipynb
 
 <div align="center">
 
-*Feito com ❤️ e muitos dados por Anderson Junior*
 
 </div>
