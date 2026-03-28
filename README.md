@@ -69,7 +69,7 @@ flowchart TD
 
     B --> B1[/"9 colunas · 22 tipos de imóveis\n149 bairros"/]
     C --> C1[/"752 registros removidos\Nulos tratados com fillna"/]
-    D --> D1[/"Distribuições · Correlações\Ranking de bairros"/]
+    D --> D1[/"Distribuições · Correlações"/]
     E --> E1[/"4 novas features\3 CSVs exportados"/]
 
     style A fill:#4A90D9,color:#fff,stroke:none
