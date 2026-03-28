@@ -29,7 +29,6 @@
 - [Etapas Detalhadas](#-etapas-detalhadas)
 - [Principais Resultados](#-principais-resultados)
 - [Estrutura do Repositório](#-estrutura-do-repositório)
-- [Como Executar](#-como-executar)
 - [Autor](#-autor)
 
 ---
